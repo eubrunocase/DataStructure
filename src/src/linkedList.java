@@ -10,7 +10,7 @@ public class linkedList {
  private int size;             // Tamanho da lista
  private class ListNode {     // Classe interna ListNode
   private Object element;     // Nó
-  private ListNode next;      // Ponteiro para o pr[oximo elemento
+  private ListNode next;      // Ponteiro para o proximo elemento
 
 
   private ListNode(Object e, ListNode n) {    // Construtor

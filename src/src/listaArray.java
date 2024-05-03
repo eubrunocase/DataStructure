@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class listaArray {
 
@@ -21,8 +20,8 @@ public class listaArray {
 
     for (int[] array : lista) {
 
-        for (int[] elemento : lista) {
-            System.out.println(elemento + " ");
+        for (int[] element : lista) {
+            System.out.println(element + " ");
 
         }
         System.out.println();
