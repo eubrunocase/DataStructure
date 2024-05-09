@@ -1,4 +1,20 @@
+
+/*
+* @Author: Bruno Casé
+* Github: eubrunocase
+*
+*
+*
+*
+*
+*
+*
+*
+* */
+
+/*---------- Inicio ----------*/
 public class BinarySearchTree {
+
     private BinaryNode root;
 
     /*---------- NÓ DE UMA ÁRVORE BINÁRIA ----------*/
@@ -15,6 +31,7 @@ public class BinarySearchTree {
         }
     }
 
+    /*----------  Construtor da classe ---------- */
     public BinarySearchTree() {
         root = null;
     }
@@ -34,6 +51,7 @@ public class BinarySearchTree {
         root = insert(x, root);
     }
 
+    /*---------- Metodo para inserir elemento ----------*/
     private BinaryNode insert(int x, BinaryNode t) {
         if (t == null) {
             t = new BinaryNode(x, null, null);
@@ -45,7 +63,7 @@ public class BinarySearchTree {
         return t;
     }
 
-
+/*---------- Metodo para exibição ----------*/
     public void print() {
         if (isEmpty())
             System.out.println("Arvore vazia");
@@ -62,7 +80,7 @@ public class BinarySearchTree {
         }
     }
 
-
+  /*---------- Metodo de busca ----------*/
     public void find(int x) {
         if (root == null) {
             System.out.println("Arvore vazia");

@@ -1,3 +1,4 @@
+
 public class ArvoresAPP {
     public static void main(String[] args) {
         BinarySearchTree MinhaABB = new BinarySearchTree();
