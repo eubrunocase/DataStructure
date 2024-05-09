@@ -9,7 +9,8 @@ public class ArvoresAPP {
         MinhaABB.insert(7);
         MinhaABB.insert(15);
 
-        MinhaABB.find(5);
+        MinhaABB.find(6);
+
 
 
     }

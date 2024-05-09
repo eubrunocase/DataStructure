@@ -43,7 +43,12 @@ public class BinarySearchTree {
 
     /*---------- Verifica se está vazia ----------*/
     public boolean isEmpty() {
-        return (root == null);
+        if (root == null) {
+            System.out.println("Verdadeiro");
+        } else {
+            System.out.println("Falso");
+        }
+        return false;
     }
 
     /*---------- Metodos de inserção abaixo ----------*/
