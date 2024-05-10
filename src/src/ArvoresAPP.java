@@ -1,6 +1,7 @@
 
 public class ArvoresAPP {
     public static void main(String[] args) {
+
         BinarySearchTree MinhaABB = new BinarySearchTree();
 
         MinhaABB.insert(6);
@@ -9,7 +10,7 @@ public class ArvoresAPP {
         MinhaABB.insert(7);
         MinhaABB.insert(15);
 
-        MinhaABB.find(6);
+       MinhaABB.find(8);
 
 
 

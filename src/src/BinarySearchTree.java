@@ -90,12 +90,20 @@ public class BinarySearchTree {
         if (root == null) {
             System.out.println("Arvore vazia");
         } else {
-            for (BinaryNode t = root; t != null; t = t.left) {
+            for (BinaryNode t = root; t != null; t = t.left, t = t.right) {
                 if (t.element == x) {
                     System.out.println(t.element);
                 }
             }
         }
     }
+
+//    public boolean find(int x) {
+//        if (x == root.element) {
+//            System.out.println(true);
+//        }
+//        System.out.println(false);
+//      return false;
+//    }
 
 }
