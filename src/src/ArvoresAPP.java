@@ -7,10 +7,9 @@ public class ArvoresAPP {
         MinhaABB.insert(6);
         MinhaABB.insert(8);
         MinhaABB.insert(5);
-        MinhaABB.insert(7);
-        MinhaABB.insert(15);
 
-       MinhaABB.find(8);
+
+      MinhaABB.findMax();
 
 
 
